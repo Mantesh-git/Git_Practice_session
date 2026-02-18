@@ -1,3 +1,4 @@
 a = "sonia"
-print(a[::-1])
+b = "dhivya"
+print(b[::-1])
 
