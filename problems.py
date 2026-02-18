@@ -1,4 +1,4 @@
-a = "mahantesh"
+a = "sonia"
 b = "dhivya"
-c = "sonia"
-print(a[::-1])
+c = "mahantesh hosmani"
+print(b[::-1])
