@@ -4,5 +4,5 @@ c = "sonia"
 print(a[::-1])
 a = "sonia"
 b = "dhivya"
-c = "mahantesh hosmani"
-print(b[::-1])
+c = "sonia"
+print(a[::-1])
