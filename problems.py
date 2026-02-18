@@ -1,3 +1,3 @@
-a = "mahantesh"
+a = "dhivya"
+b = "sonia"
 print(a[::-1])
-
