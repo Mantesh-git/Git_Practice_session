@@ -1,0 +1,23 @@
+name: Python Script Workflow
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  run-python-script-job:
+    runs-on: self-hosted
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Execute all Python scripts
+        shell: powershell
+        run: |
+          Get-ChildItem -Filter *.py | ForEach-Object {
+            Write-Host "Running $($_.Name)..."
+            py $_.FullName
+          }
